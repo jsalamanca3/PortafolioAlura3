@@ -1,0 +1,112 @@
+.div-header {
+    padding: 0 10%;
+}
+.nav-menu-buttons {
+    display: flex;
+}
+.close {
+    display: none;
+}
+.hamburguer{
+    display: none;
+}
+.p-correoElectronico {
+    font-weight: 700;
+}
+.div-material {
+    width: 30%;
+}
+.div-nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.nav-menu-buttons {
+    width: 100%;
+    height: auto;
+}
+.nav-menu-desplegar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    gap: 0 5%;
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+    list-style: none;
+    color: #464646;
+    font-size: 1.6rem;
+}
+a {
+    font-weight: 500;
+}
+.list-li-contac {
+    width: 90%;
+}
+.img-photo1 {
+    width: 90%;
+    height: 90%;
+}
+.div-sobreMi,
+.section-experiencias {
+    padding: 4% 10%;
+}
+.container-div-contac {
+    padding: 2% 10% 0% 10%;
+}
+p {
+    padding-right: 15%;
+}
+.h-experiencias {
+    margin: 0 0 32px 0;
+}
+.div-container-card-chanllege {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-column-gap: 13%;
+}
+.div-container-card-chanllege:nth-child(2) {
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 10px;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: auto;
+}
+.div-experiencias-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+div .div-container-card-chanllege:nth-child(2n-1) {
+    grid-template-areas:
+    "repositorio imagen";
+    margin-top: 30px;
+}
+.div-izquierdo {
+    grid-template-columns: 40% 60%;
+    grid-area: repositorio;
+}
+.container-contact-img-form {
+    display: flex;
+    padding: 4% 10%;
+    background: #EAF2FD;
+    justify-content: center;
+}
+.div-container-img-contact {
+    display: flex;
+    align-items: center;
+}
+.img-telephone {
+    width: 464px;
+    height: 665px;
+}
+.container-contacto {
+    padding: 0 0 0 4%;
+}
+.h-contacto {
+    margin-top: 20px;
+}
+.p-contacto {
+    padding: 0;
+}

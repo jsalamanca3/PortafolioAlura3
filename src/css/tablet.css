@@ -1,0 +1,92 @@
+.material-symbols-outlined {
+    font-size: 2.5rem;
+}
+.p-name,
+.p-correoElectronico {
+    font-size: 1.6rem;
+}
+.container-div-contac {
+    display: grid;
+    grid-template-areas:
+    "name photo"
+    "contac photo";
+    grid-template-columns: 70% 30%;
+    width: 100%;
+    height: auto;
+}
+.div-photo {
+    display: grid;
+    grid-area: photo;
+    justify-items: end;
+    align-items: center;
+}
+.div-name {
+    grid-area: name;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div-list-contac {
+    grid-area: contac;
+    margin: 0;
+}
+.img-photo1 {
+    width: 80%;
+    height: 80%;
+    padding: 0;
+    aspect-ratio: 0;
+}
+.h-name-description,
+.h-div-sobreMi {
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.p-parrafo-description {
+    margin: 0;
+}
+.list-li-contac {
+    font-size: 1.6rem;
+    justify-content: flex-start;
+    gap: 12%;
+}
+.material-symbols-sharp {
+    position: absolute;
+    top: 3px;
+    font-size: 1.6rem;
+}
+li {
+    position: relative;
+}
+.div-sobreMi {
+    margin: 0;
+}
+h2 {
+    margin-top: 0;
+}
+.p-skills {
+    font-size: 1.6rem;
+}
+.img-icons-skills {
+    width: 30%;
+}
+.p-div-formacion {
+    font-size: 1.6rem;
+}
+.container-formacion-profesional {
+    margin-bottom: 32px;
+}
+.h-experiencias {
+    margin: 32px 0 16px 0;
+}
+
+/* menu */
+
+.nav-menu-buttons {
+    width: 40%;
+}
+.hamburguer{
+    top: 20px;
+    right: 50px;
+    width: 30px;
+}
