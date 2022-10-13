@@ -28,6 +28,9 @@
     line-height: 16px;
     color: #464646;
 }
+.nav-menu:hover, .nav-menu:active {
+    border-bottom: 2px solid #0073e6;
+}
 .img-photo1 {
     width: 40%;
     height: 40%;

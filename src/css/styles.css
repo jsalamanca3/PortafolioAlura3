@@ -25,10 +25,6 @@ li {
 a {
     text-decoration: none;
     color: #464646;
-
-}
-a:hover, a:active {
-    border-bottom: 2px solid #0073e6;
 }
 h2 {
     margin-top: 32px;
