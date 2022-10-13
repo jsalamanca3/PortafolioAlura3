@@ -235,21 +235,21 @@
                     <p class="p-contacto">¿Quieres contactarme?</p>
                     <p class="p-contacto"> Complete el siguiente formulario y me pondré en contacto con usted lo antes
                         posible.</p>
-                    <form action="">
+                    <form action="" id="form" class="form">
                         <div class="div-form">
                             <p class="p-form">Nombre</p>
-                            <input type="name"></input>
+                            <input required type="name" name="name" id="name"></input>
                         </div>
                         <div class="div-form">
                             <p class="p-form">E-mail</p>
-                            <input type="email"></input>
+                            <input required type="email" name="email" id="email"></input>
                         </div>
                         <div class="div-form">
-                            <input type="text" placeholder="Asunto" class="input-form-contac"></input>
+                            <input required type="text" name="asunto" id="sunto" placeholder="Asunto" class="input-form-contac"></input>
                         </div>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <textarea name="menssage" id="menssage" cols="30" rows="10" placeholder="Mensaje"></textarea>
                     </form>
-                    <button type="submit" class="button-form">Enviar mensaje</button>
+                    <button type="submit" class="btn-form"><a href="mailto:jfsalamanca3@gmail.com" id="correo">Enviar mensaje</a></button>
                 </div>
             </div>
         </section>
@@ -259,7 +259,8 @@
         <h1 class="h-footer">&copy; 2022 - Alura Latam</h1>
     </footer>
     <script src="src/javascript/menu.js"></script>
-    <style href="src/javascript/lighbox.js"></style>
+    <script src="src/javascript/lighbox.js"></script>
+    <script src="src/javascript/form.js"></script>
 </body>
 
 </html>
