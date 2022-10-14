@@ -37,8 +37,11 @@ p {
     line-height: 22px;
 }
 .div-container-skills {
-    width: 176px;
-    height: 174px;
+    width: 184px;
+    height: 178px;
+}
+.p-skills {
+    padding: 0;
 }
 .div-container-formacion {
     width: 30%;
