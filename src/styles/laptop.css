@@ -10,6 +10,12 @@
 .hamburguer{
     display: none;
 }
+.p-name {
+    padding: 0;
+}
+.material-symbols-outlined {
+    font-size: 3.5rem;
+}
 .p-correoElectronico {
     font-weight: 700;
 }
@@ -51,6 +57,10 @@ a {
 .div-sobreMi,
 .section-experiencias {
     padding: 4% 10%;
+}
+.img-firma {
+    width: 160px;
+    height: 60px;
 }
 .container-div-contac {
     padding: 2% 10% 0% 10%;
